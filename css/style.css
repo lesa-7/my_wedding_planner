@@ -215,7 +215,7 @@ color: var(--pink);
 .services .slide .content p{
     font-size: 1.5rem;
     color: var(--black);
-    padding: 1rem;
+    padding: 2rem;
     line-height: 2;
 }
 

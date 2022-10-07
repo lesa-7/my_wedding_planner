@@ -1,6 +1,6 @@
 <section class="header">
 
-    <a href="home.php" class="logo">Wedding</a>
+    <a href="home.php" class="logo">Your Wedding Planner</a>
 
     <nav class="navbar">
     <a href="home.php">home</a>
