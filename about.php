@@ -26,6 +26,78 @@
 
 <?php @include 'header.php'; ?>
 
+<section class="about">
+
+    <img src="images/about-img.png" alt="">
+    <h3>about us</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus distinctio consequuntur odio? 
+        Beatae amet debitis culpa repudiandae error, in non quidem suscipit accusantium numquam fugiat
+        tenetur consectetur voluptates vitae quo.</p>
+    <a href="contact.php" class="btn">contact us</a>
+
+</section>
+
+<section class="team">
+
+    <h1 class="heading">our team</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/team-1.jpg" alt="">
+            <h3>john deo</h3>
+            <p>wedding planner</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/team-2.jpg" alt="">
+            <h3>john deo</h3>
+            <p>wedding planner</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/team-3.jpg" alt="">
+            <h3>john deo</h3>
+            <p>wedding planner</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/team-4.jpg" alt="">
+            <h3>john deo</h3>
+            <p>wedding planner</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</section>
+
 <?php @include 'footer.php'; ?>
 
 </div>
