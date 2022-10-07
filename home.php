@@ -69,6 +69,76 @@
 
 </section>
 
+<section class="services">
+
+<h1 class="heading">our services</h1>
+
+    <div class="swiper service-slider">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide">
+            <img src="images/service-1.jpg" alt="">
+            <div class="content">
+                <h3>photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eum!</p>
+                <a href="about.php" class="btn" >about us</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide">
+            <img src="images/service-2.jpg" alt="">
+            <div class="content">
+                <h3>wedding registory</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eum!</p>
+                <a href="about.php" class="btn" >about us</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide">
+            <img src="images/service-3.jpg" alt="">
+            <div class="content">
+                <h3>guest list</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eum!</p>
+                <a href="about.php" class="btn" >about us</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide">
+            <img src="images/service-4.jpg" alt="">
+            <div class="content">
+                <h3>wedding cake</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eum!</p>
+                <a href="about.php" class="btn" >about us</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide">
+            <img src="images/service-5.jpg" alt="">
+            <div class="content">
+                <h3>wedding ceremony</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eum!</p>
+                <a href="about.php" class="btn" >about us</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide">
+            <img src="images/service-6.jpg" alt="">
+            <div class="content">
+                <h3>fine dining</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eum!</p>
+                <a href="about.php" class="btn" >about us</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
 <?php @include 'footer.php'; ?>
 
 </div>

@@ -53,6 +53,14 @@ body{
     box-shadow: var(--box-shadow);
 }
 
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 2rem;
+    font-size: 5rem;
+}
+
 .btn{
     display: inline-block;
     padding: 1rem 3rem;
@@ -84,12 +92,12 @@ section {
 }
 
 .header .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--black);
 }
 
 .header .navbar a{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 2rem;
     color:var(--black);
 }
@@ -118,6 +126,8 @@ color: var(--pink);
     justify-content: center;
     padding: 2rem;
     margin-bottom: 4rem;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 .home .slide .content{
@@ -161,6 +171,54 @@ color: var(--pink);
 .swiper-pagination-bullet-active{
     background-color: var(--pink);
 }
+
+.services .slide{
+    height: 35rem;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+    margin-bottom: 4rem;
+}
+
+.services .slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.services .slide:hover img{
+    transform: scale(1.1);
+}
+
+.services .slide .content{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: var(--transparent-white);
+    backdrop-filter: blur(.5rem);
+    padding: 2rem;
+    text-align: center;
+    transition: .2s linear;
+    transform: translateY(calc(100% - 6.2rem));
+}
+
+.services .slide:hover .content{
+    transform: translateY(0);
+}
+
+.services .slide .content h3{
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.services .slide .content p{
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem;
+    line-height: 2;
+}
+
 
 
 
@@ -215,11 +273,6 @@ color: var(--pink);
 
 
 
-
-
-
-
-
 /* media queries */
 
 @media (max-width:1200px){
@@ -239,6 +292,11 @@ color: var(--pink);
 }
 
 @media (max-width:768px){
+
+    .heading{
+        font-size: 3.5rem;
+    }
+
     #menu-btn{
         display: inline-block;
         transition: .2s linear;
@@ -276,7 +334,11 @@ color: var(--pink);
     }
     .container{
         margin:2rem;
-        padding-bottom: 20rem;
+        /*padding-bottom: 20rem;*/
+    }
+
+    .services .slide .content p{
+        font-size: 1.3rem;
     }
 }
 
