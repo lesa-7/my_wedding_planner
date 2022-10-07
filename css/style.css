@@ -51,7 +51,23 @@ body{
     max-width: 1200px;
     margin: 10rem auto;
     box-shadow: var(--box-shadow);
+}
 
+.btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: var(--border);
+    background: var(--transparent-white);
+    color: var(--black);
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    background:var(--black);
+    color: var(--white);
 }
 
 section {
@@ -88,6 +104,65 @@ color: var(--pink);
     cursor: pointer;
     display: none;
 }
+
+
+.home{
+    padding-bottom: 0;
+}
+
+.home .slide{
+    min-height: 60rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.home .slide .content{
+    background: var(--transparent-white);
+    border-radius: .5rem;
+    backdrop-filter: blur(.5rem);
+    box-sizing: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    width: 50rem;
+}
+
+
+.home .slide .content h3{
+    font-size: 3rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.home .slide .content p{
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem;
+    line-height: 2;
+}
+
+@keyframes PopUp {
+    0%{
+        transform: scale(0);
+    }
+}
+
+.home .swiper-slide-active .content{
+    animation:PopUp .2s linear backwards .2s;
+}
+
+.swiper-pagination{
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--pink);
+}
+
+
 
 .footer{
     background: var(--transparent-white);
@@ -144,7 +219,8 @@ color: var(--pink);
 
 
 
-/* medi queries */
+
+/* media queries */
 
 @media (max-width:1200px){
     .container{
